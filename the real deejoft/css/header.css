@@ -1,0 +1,365 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+    /* transition: 0.6s; */
+}
+
+.topnav{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color:#1855c5;
+    color: #fff;
+    text-transform: capitalize;
+    position: sticky;
+    top: 0px;
+    z-index: 5;
+}
+
+.insidenav1{
+    display: flex;
+    place-items: center;
+    align-items: center;
+    gap: 10px;
+    transition: 0.5s;
+}
+.insidenav2{
+    place-items: center;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: 0.5s;
+}
+.insidenav3{
+    place-items: center;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: 0.5s;
+}
+#facebook , #instagram , #youtube, #whatsapp , #linkedin{
+    transform: translateX(150px);
+    transition: 0.5s;        
+}
+.insidenav1,.insidenav2,.insidenav3{
+    transform: translateX(-200px);
+    font-weight: 500;
+}
+.insidenav1 p ,.insidenav2 p ,.insidenav3 p{
+    transform: translateY(7px);
+}
+#facebook:hover , #instagram:hover , #youtube:hover, #whatsapp:hover , #linkedin:hover{
+    margin-bottom: 10px;
+}
+.insidenav1:hover,.insidenav2:hover,.insidenav3:hover{
+    color: #f88d00;
+}
+.logo img{
+    width: 140px;
+}
+.nav2{
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+    align-items: center;
+}
+
+.logo{
+    transition: 0.5s;
+}
+
+header{
+    background-color: #fff; 
+    padding: 10px;
+    position: sticky;
+    top: 40px;
+    z-index: 5;
+    box-shadow: 0px 0px 2px 0px;
+}
+
+#whatapp{
+    background-color: #25d366;
+    padding: 5px 5px;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 40px;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    transition: 0.5s;
+    z-index: 2;
+}
+
+#whatapp:hover{
+    background-color: #262626;
+}
+
+.therealnav a{
+    text-decoration: none;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 17px;
+    color: #1855c5;
+    transition: 0.5s;
+}
+
+#youtube{
+    background-color: #cd201f;
+    /* color: #cd201f; */
+    padding: 5px 5px;
+}
+
+#instagram{
+    background-color: #262626;
+    padding: 5px 5px;
+}
+
+#linkedin{
+    background-color: #0077b5;
+    padding: 5px 5px;
+}
+
+#facebook{
+    background-color: #3b5998;
+    padding: 5px 5px;
+}
+
+#whatsapp{
+    background-color: #25d366;
+    padding: 5px 5px;
+}
+
+
+#a1:hover, #a2:hover,#a3:hover,#a4:hover,#a5:hover,#a6:hover{
+    color: #f88d00;
+    padding-top: 15px;
+}
+
+#a7{
+    font-weight: 700;
+}
+#a7:hover{
+    color: #fff;
+    background-color: #262626;
+}
+
+.active2:hover{
+    background-color: #262626;
+}
+
+.active1{
+    color: #f88d00;
+}
+
+.active2{
+    background-color: #f88d00;
+    padding: 10px 20px;    
+}
+.inner{
+    display: flex;
+    gap: 40px;
+    transition: 0.5s;
+    transform: translateY(15px);
+}
+
+.change .part1{
+    -webkit-transform: rotate(-45deg) translate(0px,17px);
+    transform: rotate(-45deg) translate(0px, 17px);
+}
+
+.change .part2{
+opacity: 0;
+}
+
+.change .part3{
+    -webkit-transform: rotate(45deg) translate(5px,-20px);
+    transform: rotate(45deg) translate(-5px, -20px);
+}
+@media screen and (max-width:1400px){
+    .inner{
+        display: flex;
+        gap: 30px;
+        transition: 0.5s;
+    }
+    .nav2{
+        display: flex;
+        justify-content: center;
+        gap: 200px;
+        align-items: center;
+    }
+    
+}
+@media screen and (max-width:1200px){
+    #facebook , #instagram , #youtube, #whatsapp , #linkedin{
+        transform: translateX(50px);
+        transition: 0.5s;        
+    }
+    .insidenav1,.insidenav2,.insidenav3{
+        transform: translateX(-90px);
+        font-weight: 500;
+    }
+
+    .inner{
+        display: flex;
+        gap: 20px;
+        transition: 0.5s;
+    }
+    .nav2{
+        display: flex;
+        justify-content: center;
+        gap: 130px;
+        align-items: center;
+    }
+}
+@media screen and (max-width:1000px){
+    #facebook , #instagram , #youtube, #whatsapp , #linkedin{
+        transform: translateX(20px);
+        transition: 0.5s;       
+    }
+    .insidenav1,.insidenav2,.insidenav3{
+        transform: translateX(-20px);
+        font-weight: 500;
+    }
+    .topnav{
+        gap: 15px;
+        position: sticky;
+        top: 0;
+    }  
+    
+    header{
+        position: sticky;
+        top: 40px;
+    }
+
+    
+    .inner{
+        display: none;
+    }
+    .toggle{
+        display: inline-block;
+        position: fixed;
+        top: 59px;
+        right: 50px;
+        transition: 0.5s;
+    }
+
+    .part1,.part2,.part3{
+        background-color: #000;
+        width: 55px;
+        height: 2px;
+        line-height: 50px;
+        transition: 0.5s;
+    }
+
+    .change .inner{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        right: 0;
+        top: 0;
+        /* padding-top: 140px; */
+        padding: 50px 100px;
+        height: 100%;
+        width: max-content;
+        line-height: 50px;
+        text-align: center;
+        background-color: #fff;
+        /* background-blend-mode: darken;
+        background: rgb(0,0,0,0.5); */
+    }
+
+    .logo{
+        transform: translateX(-250px);
+    }
+    
+    
+}
+@media screen and (max-width:800px){
+    #facebook , #instagram , #youtube, #whatsapp , #linkedin{
+        display: none;       
+    }
+    .insidenav1,.insidenav2,.insidenav3{
+        transform: translateX(5px);
+        font-weight: 500;
+    }
+    .topnav{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+        position: sticky;
+        top: 0;
+    } 
+    
+    header{
+        position: sticky;
+        top: 40px;
+    }
+    .logo{
+        transform: translateX(-150px);
+    }
+}
+@media screen and (max-width:600px){
+
+    .logo{
+        transform: translateX(-50px);
+    }
+    
+}
+
+@media screen and (max-width:563px) {
+    .toggle{
+        display: inline-block;
+        position: fixed;
+        top: 109px;
+        right: 50px;
+        transition: 0.5s;
+    }
+
+    header{
+        position: sticky;
+        top: 85px;
+    }
+    
+    
+}
+@media screen and (max-width:400px){
+    .insidenav3 p{
+        font-size: 11px;
+    }   
+    .logo{
+        transform: translateX(-20px);
+    }
+}
+
+@media screen and (max-width:307px){
+    .toggle{
+        display: inline-block;
+        position: fixed;
+        top: 160px;
+        right: 50px;
+        transition: 0.5s;
+    }    
+    header{
+        position: sticky;
+        top: 135px;
+    }
+    
+    .logo{
+        transform: translateX(10px);
+    }   
+}
+@media screen and (max-width:200px){
+    .toggle{
+        display: inline-block;
+        position: fixed;
+        top: 160px;
+        right: 0px;
+        transition: 0.5s;
+    }
+    
+}

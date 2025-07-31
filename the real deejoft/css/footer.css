@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.ep3002{
+    background-blend-mode: darken;
+    background: rgb(0,0,0,0.5);
+    background-image: url(banner.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    justify-content: center;
+    padding: 30px 100px;
+    background-attachment: fixed;
+}
+.ep3003{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    padding: 50px 0px;  
+}
+
+.ep3004 {
+    text-align: left;
+    color: #fff;
+}
+
+.ep3004 h1{
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    font-family: monospace;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+.ep3004 p{
+    text-align: left;
+    text-transform: capitalize;
+    width: 250px;
+}
+.ep3005{
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    color: #fff;
+    text-transform: capitalize;
+}
+.ep3005 h3{
+    font-size: 25px;
+    font-weight: 700;
+    font-family: monospace;
+    padding-bottom: 20px;
+
+}
+.ep3005 a{
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.ep3006{
+    text-transform: capitalize;
+    color: #fff;
+}
+.ep3006 h3{
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.insidethefooter{
+    display: flex;
+    gap: 30px;
+}
+.insidethefooter a{
+    text-decoration: none;
+    color: #fff;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    line-height: 30px;
+}
+.inside1234{
+    display: flex;
+    flex-direction: column;
+}
+.inside234{
+    display: flex;
+    flex-direction: column;
+}
+.ep3007{
+    color: #fff;
+    text-transform: capitalize;
+    line-height: 30px;
+}
+.ep3007 h3{
+    font-weight: 700;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.lastone{
+    color: #fff;
+}
+
+.ep3002 a{
+    transition: 0.5s;
+}
+.ep3002 a:hover , .ep206:hover{
+    color: #f88d00;
+}
+@media screen and (max-width:1400px){
+    
+}
+@media screen and (max-width:1200px){
+    
+}
+@media screen and (max-width:1000px){
+    
+}
+@media screen and (max-width:800px){
+    
+}
+@media screen and (max-width:600px){
+    
+}
+@media screen and (max-width:400px){
+    
+}
+@media screen and (max-width:300px){
+    
+}
